@@ -1,0 +1,30 @@
+Data files used in the current study. A description of each data file is below.
+
+
+'Exp 1 - Similiarity Data.csv' : Data from Experiment 1. Contains dissimilarity values for each object pair as judged by participants or computed from each model. 
+
+'Exp 1 - Model Decoding Accuracy.csv' : Model decoding accuracy data from Experiment 1. Show the discrimination accuracy for each object pair seperately by model.
+
+'Exp 2 - Discrimination Data.csv' : Data from Experiment 2. Contians dissimilarity values for each degree of skeletal similarity (compared to the base pair) as judged by each participant or computed from each model.
+
+'Exp 3 - Categorization.csv' : Data from Experiment 3. Contains participants' aggregate categorization judgments for the skeleton (skel), surface form (SF), and conflict trials. Also, contains categorization judgments for each surface form conflict (e.g., Balloon surface form vs. Skeletal surface form). In conflict trials, a value close to 1 indicates categorization by skeleton, a value closer to 0 indicates categorization by surface form. Surface forms abbreviations are described below. See also the stimulus folder for description of the stimulus labels.:
+		1. Sk - Skel Taper
+		2. Bu - Bulge Taper
+		3. Sh - Shrink Taper
+		4. Wa - Wave Taper
+		5. Ba - Balloon Taper
+
+	Thus, Sk_Ba refers to a conflict trial where the surface form one object used the skeletal taper and the surface form of the other used the balloon taper.
+
+
+'Exp 3 - Skel vs. SF Accuracy.csv' : Accuracy and reaction time data for the four skeletons and five surface forms used in the current experiment from Experiment 3.
+
+'Exp 3 - Surface Form similarity.csv' : Surface form dissimilarity data as judged by participants or computed from each model. 
+
+'Exp 3 - NAP Ratings.csv' : Non-accidental property (NAP) ratings and cluster label for each surface form. NAP abbreviations are described below.
+	Conv_vert - Convergence to vertex
+	Pos_curv - Positive curvature
+	Neg_curv - Negative curvature
+	taper - Taper
+
+'Supplemental Exp 1 - Participant Accuracies.csv' - Overall Accuracy data for the timed and untimed tasks in Supplemental experiment 1.
