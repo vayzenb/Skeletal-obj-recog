@@ -1,0 +1,21 @@
+This folder contains all of the stimuli used in the paper. The contents of each sub-folder is described below.
+
+###############
+Sub-folder description
+###############
+
+Blender Files - All of the raw 3D .blend files from which the stimuli were made. See the "Stimulus Generation Folder" for instructions on how to create your own 3D figures.
+
+Experiment 1 - The 450 stimuli used in Experiment 1 (30 skeletons x 5 surfaces forms x 3 orientations).
+	- Stimuli are labled as follows: Figure_[figure Number]_[surface form]Taper_[orientation].png
+	- Thus, 'Figure_32_SkelTaper_30.png' Is figure number 32 with the skeletal surface form presented at 30 a degree orientation.
+
+Experiment 2 - The 72 stimuli used in Experiment 2 (3 skeleton base pairs x 5 skeletal variations x 3 orientaitons). Each base pair was generated with 5 degrees of similarity, 0% to 50% difference from the base pair.
+	- Stimuli are labled as follows: Figure_[figure Number]_[skeletal similarity]_[orientation].png
+	- Thus, 'Figure_23_30_90.png' is figure number 23 with a 30% skeletal difference presented at a 90 degree orientation
+
+Experiment 3 - The 60 stimuli used in the Experiment 3 (4 skeletons x 5 surface forms x 3 orientations). This folder also includes images from other orientations.
+	- Stimuli labels follow the same convention as Expeirment 1
+
+
+Skeletons - Contains the 3D skeleton coordinate files from Experiments 1 and 2 as CSVs, as well as scripts to compute skeletal similarity. 

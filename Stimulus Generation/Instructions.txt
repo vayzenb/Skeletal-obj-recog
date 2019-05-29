@@ -1,0 +1,65 @@
+
+The Create_Skel_Figure.py script will procedurally generate nonsense objects from a skeleton.
+
+################
+Creation procedure from the paper
+################
+
+
+Each skeleton will be comprised of three segments created from Bezier curves
+of a random size and curvature scaled between .05 and .25 virtual Blender units (vu). The first 
+segment will be oriented forward towards the ‘camera’. The second and third segments will be oriented
+perpendicular to the first segment and attached to the first segment or second segment at a random
+point along their length. 
+
+Surface forms were created by applying a circular bevel to the object’s skeleton along with one of five 
+taper properties that determined the shape of the surface form. 
+
+The overall size of the object will be normalized to .25 vu
+
+#################
+Best practices
+#################
+
+This script does not incorporate any collision detection when attaching and manipulating skeletal segments. Thus, a segment may overlap with another segment or
+bend into itself.
+
+The best method to use this script is to create a large set of objects using the default parameters and then go through the created images and keep only those  
+objects that do not have overlapping or deformed segments.
+
+
+################
+To Run
+################
+
+From the command prompt:
+
+1. CD to the root folder:
+	
+	cd ...\Skeletal-obj-recog\Stimulus Generation\
+
+2. Run the script
+	
+	blender.exe Base_File.blend --background --python Create_Skel_Figure.py <number of figures> <take picture> <deformation value>
+
+
+<number of figures> This argument specifies how many objects you want to create. Default is 5.
+
+<take picture> This argument specifies whether the script should generate images of the objects. 
+Put 1 if you want to take pictures. 0 if you don't want pictures.
+
+<Deformation value> This argument will adjust how much the object segments will vary. A larger value will lead to greater variability.
+Default is .15.
+
+Example:
+	
+	blender.exe Base_File.blend --background --python Create_Skel_Figure.py 50 1 .12
+
+
+###########
+Common errors
+###########
+
+If you get the error: 'blender' is not recognized as an internal or external command, operable program or batch file.
+
+See: https://superuser.com/questions/689333/how-to-add-installed-program-to-command-prompt-in-windows
