@@ -309,7 +309,8 @@ def createFigure(figNum, armNum, randScale):
 args = sys.argv
 args = args[args.index("--"):]
 
-#mkdir = os.path.dirname(sys.argv[0])
+#Working directories
+#CHANGE ME
 mkdir = "C:\\Users\\vayzenb\\Desktop\\GitHub Repos\\Skeletal-obj-recog\\Stimulus Generation"
 rawDir = "\\Raw Blend Files\\Figures_" 
 imDir = "\\Object Images\\"

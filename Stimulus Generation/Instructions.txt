@@ -32,13 +32,15 @@ objects that do not have overlapping or deformed segments.
 To Run
 ################
 
-From the command prompt:
+1. Open 'Create_skel_figure.py' script and change the working directory at the bottom
 
-1. CD to the root folder:
+2. Open command prompt
+
+3. CD to the root folder:
 	
 	cd ...\Skeletal-obj-recog\Stimulus Generation\
 
-2. Run the script
+4. Run the script
 	
 	blender.exe Base_File.blend --background --python Create_Skel_Figure.py <number of figures> <take picture> <deformation value>
 
